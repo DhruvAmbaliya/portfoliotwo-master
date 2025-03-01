@@ -7,9 +7,7 @@ const AboutMe = () => {
         <div className="py-6">
           <h2 className="font-semibold mb-1">Hello! I'm Dhruv Ambaliya</h2>
           <p className="text-base leading-6 ">
-            Web designer from USA, California. I have rich experience in web
-            site design and building, also I am good at wordpress. I love to
-            talk with you about our unique.
+          Currently, I am working as a website designer at Yanolja Cloud Solution, a leading SaaS company. With experience in modern web technologies like React, Next.js, and Tailwind CSS.
           </p>
         </div>
       </div>
@@ -17,19 +15,19 @@ const AboutMe = () => {
         <ul className="flex flex-col gap-1">
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Age:</span>
-            24
+            21
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Residence:</span>
-            USA
+            India
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Freelance:</span>
-            Available
+            -
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
-            California, USA
+            Surat, India
           </li>
         </ul>
       </div>

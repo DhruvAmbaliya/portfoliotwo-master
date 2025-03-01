@@ -38,7 +38,7 @@ const Skills = () => {
           </div>
           {/* UI Design */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">UI Design</p>
+            <p className="text-base text-textColor -mb-1.5">UX Design</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -55,30 +55,30 @@ const Skills = () => {
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">English</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Hindi */}
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">Hindi</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Arabic*/}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Arabic</p>
+            <p className="text-base text-textColor -mb-1.5">Gujarati</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[70%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* French */}
-          <div className="py-3 border-b-[1px] border-zinc-800">
+          {/* <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">French</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[60%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* =============== Design and Languages End here ===================== */}
@@ -129,49 +129,49 @@ const Skills = () => {
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Website hosting
+            Website Hosting
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            iOS and android apps
+            API Integration & Third-Party Services
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Create logo design
+            SaaS Web Solutions
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Design for print
+            SEO Optimization
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Modern and mobile-ready
+            Modern and Mobile-Ready
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Advertising services include
+            Role-Based Authentication & Secure APIs
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Graphics and animations
+            Advertising Services Include 
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Search engine marketing
+            Search Engine Marketing
           </li>
         </ul>
       </div>

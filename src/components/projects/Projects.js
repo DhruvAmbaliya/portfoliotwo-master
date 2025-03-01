@@ -23,21 +23,21 @@ const Projects = () => {
             category="Website"
             image={workImgThree}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="Business Card Design"
             category="Design"
             image={workImgOne}
-          />
+          /> */}
           <ProjectsCard
             title="Infinity Logo"
             category="Logo"
             image={workImgTwo}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="Mobile Application"
             category="Shopping"
             image={workImgFive}
-          />
+          /> */}
         </div>
         <div className="px-6">
           <ProjectsCard
@@ -45,21 +45,21 @@ const Projects = () => {
             category="E-commerce"
             image={workImgFour}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="Grapic Design"
             category="Design"
             image={workImgSix}
-          />
+          /> */}
           <ProjectsCard
             title="Ideas & Blog"
             category="Website"
             image={workImgEight}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="ZOSS Logo"
             category="Logo"
             image={workImgSeven}
-          />
+          /> */}
         </div>
       </div>
     </div>

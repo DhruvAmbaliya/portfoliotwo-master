@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 import { FaUser, FaEnvelope } from "react-icons/fa";
 import { IoIosPaper } from "react-icons/io";
 import { MdWork, MdOutlineClose } from "react-icons/md";
-import { SiGooglechat } from "react-icons/si";
+// import { SiGooglechat } from "react-icons/si";
 import { BsTelephonePlusFill } from "react-icons/bs";
 import Left from "./components/home/Left";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Projects from "./components/projects/Projects";
-import Blog from "./components/blog/Blog";
+// import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Sidenav from "./components/home/sidenav/Sidenav";
 
@@ -133,7 +133,7 @@ const Home = () => {
             </span>
           </span>
           {/* Blog Icon */}
-          <span
+          {/* <span
             onClick={() =>
               setAbout(false) &
               setResume(false) &
@@ -151,7 +151,7 @@ const Home = () => {
             <span className="text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl absolute left-0 translate-x-8 group-hover:translate-x-12 opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
               Blog
             </span>
-          </span>
+          </span> */}
           {/* Contact Icon */}
           <span
             onClick={() =>
@@ -192,7 +192,7 @@ const Home = () => {
             <About />
             <Resume />
             <Projects />
-            <Blog />
+            {/* <Blog /> */}
             <Contact />
           </div>
           {/* ======================== Smaller device content End ========================== */}
@@ -225,7 +225,7 @@ const Home = () => {
                 <Projects />
               </motion.div>
             )}
-            {blog && (
+            {/* {blog && (
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -233,7 +233,7 @@ const Home = () => {
               >
                 <Blog />
               </motion.div>
-            )}
+            )} */}
             {contact && (
               <motion.div
                 initial={{ opacity: 0 }}

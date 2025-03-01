@@ -11,11 +11,11 @@ const Education = () => {
         <ResumeTitle title="Experience" icon={<MdWork />} />
         <ResumeCard
           badge=""
-          title="Web Developer"
-          subTitle="Facebook Inc."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          title="Web Designer"
+          subTitle="YCS [formerly eZee]"
+          des="A leading SaaS company Responsible for designing and developing high-performance web solutions."
         />
-        <ResumeCard
+        {/* <ResumeCard
           badge="2011 - 2012"
           title="Front-end Developer"
           subTitle="Google Inc."
@@ -26,7 +26,7 @@ const Education = () => {
           title="Senior Developer"
           subTitle="ReactBD.com."
           des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
-        />
+        /> */}
       </div>
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
@@ -34,12 +34,12 @@ const Education = () => {
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
         <ResumeCard
-          badge="2012 - 2014"
-          title="North South University"
-          subTitle="Dhaka"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2020 - 2024"
+          title="Charusat University"
+          subTitle="B.Tech"
+          des="Completed my Bachelor of Technology in Computer Engineering from Charusat University."
         />
-        <ResumeCard
+        {/* <ResumeCard
           badge="2015 - 2016"
           title="Programming Course"
           subTitle="UK"
@@ -50,7 +50,7 @@ const Education = () => {
           title="MERN Stack Developer"
           subTitle="Dhaka"
           des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
-        />
+        /> */}
       </div>
     </div>
   );
