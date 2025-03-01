@@ -28,7 +28,7 @@ const Left = () => {
       </div>
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
         <div className="flex flex-col items-center gap-2 py-10">
-          <h1 className="text-textColor text-4xl font-semibold">Dhruv Ambaliya</h1>
+          <h1 className="text-textColor text-4xl font-semibold max-sm:text-center">Dhruv Ambaliya</h1>
           <p className="text-base text-designColor tracking-wide">
             {text}
             <Cursor cursorBlinking="false" cursorStyle="|" />
